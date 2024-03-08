@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="d-flex justify-content-center">
+    <h4 class="mb-4 text-muted">
+        Вход в аккаунт :)
+    </h4>
+</div>
+<div id="userInfo" style="display:none;">
+    <p>Добро пожаловать <span id="userName"></span>!</p>
+</div>
+<form id="authorizationUserForm" class="w-50 mx-auto" novalidate>
+    <div class="mb-3">
+        <label class="form-label">Введите логин</label>
+        <input pattern="[a-zA-Z0-9]+" name="login" type="text" id="login" class="form-control" required/>
+        <div class="invalid-feedback">Поле "Логин" обязательно для заполнения. Используйте только латинские буквы и цифры.</div>
+        <div id="loginLength" class="invalid-feedback">Длина должна быть не меньше 3 символов</div>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ваш пароль</label>
+        <input pattern="[a-zA-Z0-9]+" name="password" id="password" type="password" class="form-control" required/>
+        <div id="passwordLength" class="invalid-feedback">Поле "Пароль" обязательно для заполнения. Используйте только латинские буквы и цифры. Длина пароля должна быть не меньше 8 символов.</div>
+    </div>
+    <div>
+        <a href="#" class="mb-4 small text-primary pointer-event text-decoration-none">Регистрация если нету аккаунта</a>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+        <button id="submitLogin" type="button" value="Логин" class="btn btn-bg btn-primary btn-lg">Вход</button>
+    </div>
+</form>
+
+@section Scripts
+{
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    var tokenKey = "accessToken";
+
+    document.getElementById("submitLogin").addEventListener("click", async e => {
+      var form = $("#authorizationUserForm")[0];
+      if (!form.checkValidity()) {
+        form.classList.add('was-validated');
+        return;
+      }
+
+      var password = $('input[name="password"]').val();
+      var login = $('input[name="login"]').val();
+
+      if (login.length < 3) {
+        $('#loginLength').show();
+        return;
+      } else {
+        $('#loginLength').hide();
+      }
+
+      if (password.length < 8) {
+        $('#passwordLength').show();
+        return;
+      } else {
+        $('#passwordLength').hide();
+      }
+
+      e.preventDefault();
+      const response = await fetch("/login", {
+        method: "POST",
+        headers: { "Accept": "application/json", "Content-Type": "application/json" },
+        body: JSON.stringify({
+          login: document.getElementById("login").value,
+          password: document.getElementById("password").value
+        })
+      });
+
+      if (response.ok === true) {
+        const data = await response.json();
+        document.getElementById("userName").innerText = data.username;
+        document.getElementById("authorizationUserForm").style.display = "none";
+        sessionStorage.setItem(tokenKey, data.access_token);
+      } else {
+        Swal.fire({
+             title: 'Ошибка входа',
+             text: 'Логин или пароль не соответствуют!', 
+             icon: 'error',
+             confirmButtonText: 'Окей'
+        })
+      }
+    });
+
+
+  </script>
+}

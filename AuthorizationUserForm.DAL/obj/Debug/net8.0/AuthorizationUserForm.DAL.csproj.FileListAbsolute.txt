@@ -1,0 +1,15 @@
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\bin\Debug\net8.0\AuthorizationUserForm.DAL.deps.json
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\bin\Debug\net8.0\AuthorizationUserForm.DAL.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\bin\Debug\net8.0\AuthorizationUserForm.DAL.pdb
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\bin\Debug\net8.0\AuthorizationUserForm.Domain.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\bin\Debug\net8.0\AuthorizationUserForm.Domain.pdb
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.csproj.AssemblyReference.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.AssemblyInfoInputs.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.AssemblyInfo.cs
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.csproj.CoreCompileInputs.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\Authoriz.DB250958.Up2Date
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\refint\AuthorizationUserForm.DAL.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\AuthorizationUserForm.DAL.pdb
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.DAL\obj\Debug\net8.0\ref\AuthorizationUserForm.DAL.dll

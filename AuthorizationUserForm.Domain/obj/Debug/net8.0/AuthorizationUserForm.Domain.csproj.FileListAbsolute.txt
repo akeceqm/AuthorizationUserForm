@@ -1,0 +1,12 @@
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\bin\Debug\net8.0\AuthorizationUserForm.Domain.deps.json
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\bin\Debug\net8.0\AuthorizationUserForm.Domain.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\bin\Debug\net8.0\AuthorizationUserForm.Domain.pdb
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.csproj.AssemblyReference.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.AssemblyInfoInputs.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.AssemblyInfo.cs
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.csproj.CoreCompileInputs.cache
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\refint\AuthorizationUserForm.Domain.dll
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\AuthorizationUserForm.Domain.pdb
+C:\Users\akeceqm\RiderProjects\AuthorizationUserForm\AuthorizationUserForm.Domain\obj\Debug\net8.0\ref\AuthorizationUserForm.Domain.dll
