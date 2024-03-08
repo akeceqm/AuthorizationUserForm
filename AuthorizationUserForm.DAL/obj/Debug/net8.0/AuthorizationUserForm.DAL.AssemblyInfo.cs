@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthorizationUserForm.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+262ed7b18f44c72b88fd77722c5f7cdeb359d4e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthorizationUserForm.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthorizationUserForm.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
